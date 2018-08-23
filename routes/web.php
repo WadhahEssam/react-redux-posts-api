@@ -22,4 +22,4 @@ $router->get('/post[/{id}]' , 'PostController@index') ;
 
 $router->post('/post' , 'PostController@store') ; 
 
-$router->delete('/post/{id}' , 'PostController@destroy') ;
+$router->post('/deletePost/{id}' , 'PostController@destroy') ;
